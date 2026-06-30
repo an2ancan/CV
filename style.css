@@ -7,7 +7,7 @@
 }
 
 .left-section {
-    flex: 0 0 61.8vw;
+    flex: 0 0 61.8%;
     padding-right: 20px;
 }
 
@@ -25,6 +25,8 @@
     background-image: linear-gradient(to right, #30C6C9, transparent);
     position: relative;
     margin: 45px 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 }
 
 .divider::before {
@@ -41,6 +43,8 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 }
 
 .sub-divider {
@@ -75,6 +79,8 @@ ul li {
   border-radius: 5px; 
   margin-bottom: 10px;
   padding: 10px; 
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .dotted-list {
